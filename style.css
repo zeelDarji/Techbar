@@ -1,0 +1,209 @@
+body{
+  font-family: roboto;
+}
+.p{
+  color: #333;
+}
+section{
+  padding-top:25px;
+  padding-bottom: 25px; 
+}
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:1;
+}
+header .small-header{
+  transition: all 0.5s ease;
+  transform: scale(0.9);
+}
+footer{
+  padding-top:25px;
+}
+header{
+  background-color: #D3D3D3;
+}
+header .topheader a{
+  color: red;
+}
+header .bottomheader .navbar-brand{
+  margin-left: 10%;
+}
+header .bottomheader .collapse{
+  margin-right: 20%;
+}
+header .bottomheader .collapse .nav-item{
+  margin: 4px;
+  -webkit-transition:  1s; /* For Safari 3.1 to 6.0 */
+  transition:  1s;
+}
+header .bottomheader .collapse .active{
+  color: #989b98;
+ border: 1px solid rgba(0,0,0,0.5);
+ border-radius: 4px;
+
+}
+header .bottomheader .collapse .nav-item:hover {
+  background: red;
+  border-radius:4px; 
+  color: #FFF;
+}
+.banner{
+  background-image: url("../images/banner01.png");
+  height: 460px;
+}
+.banner h1{
+  color: #fff;
+}
+.banner .smartPhone {
+  padding-top: 10%;
+  color: #fff;
+}
+.service img{
+height: 125px;
+width:125px;
+}
+.rate{
+   background-color: #202121;
+}
+.rate .rated{
+  font-size: 35px;
+	color: #fff;
+}
+.rate a.btn{
+  margin: 65px;
+  padding: 15px;
+}
+.rate .see{
+  font-size: 35px;
+	color: #333;
+}
+footer{
+  background-color: #202121;
+}
+a .btn.btn-danger{
+  margin: 200px;
+}
+.rate .learn {
+  background-color:transparent;
+  color: #D3D3D3;
+  border-color: yellow;
+  height: 57px;
+  width: 350px;
+  font-size: 22px;
+  margin-right: auto;
+  margin-left: auto;
+  border-width: inherit;
+  border-radius: 3px;
+  
+}
+.btn.btn-danger{
+  margin: 7px;
+  width: 250px;
+  border-radius: 3px;
+}
+.rate a.btn{
+  color: #D3D3D3;
+  border-color: #d3d3d3;
+}
+.col-lg-12.text-center {
+  margin: 20px;
+}
+.banner i{
+  padding: 5px;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+footer .at{
+ color: #969696;
+}
+footer #styleIcon{
+  color: #fff;
+  display: inline-block;
+
+}
+footer #styleIcon i{
+  border-radius: 50%;
+  border: 2px solid #333;
+  padding: 10px;
+  margin: 5px;
+}
+header .topheader #top #spaceIcon i{
+  border-radius: 50%;
+  border: 1px solid #989898;
+  padding: 8px;
+  margin: 5px;
+}
+.techbar #fontSize .col-lg-3{
+  font-size: 12px;
+  padding: 10px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .techbar #fontSize{
+  padding-left: 175px;
+  }
+}
+@media screen and (max-width: 479px){
+  .techbar #fontSize{
+  padding-left: 145px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px){
+  .techbar #fontSize{
+  padding-left: 175px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 1024px){
+  .location #loc{
+ text-align: center;
+  }
+}
+footer #space{
+  padding: 20px;
+}
+footer #copy{
+  font-size: 12px;
+}
+footer #atTechbar{
+  font-size: 15px;
+  font: bold;
+}
+footer #powered{
+  color: #989b98;
+  font-size: 14px;
+  margin-left: 146px;
+}
+header .topheader #top{
+  height: 60px;
+  color: #989b98;
+  padding: 12px;
+}
+h1{
+  font-size: 50px;
+  color: #454544;
+  font-family: roboto;
+}
+.people #col{
+  color: red;
+  font-size: 10px;
+}
+.people #color{
+  color: red;
+  text-decoration: underline;
+  font-size: 10px;
+}
+.people .media-body{
+  font-size: 12 px;
+}
+header .topheader #top #spaceIcon i.fa.fa-facebook.diff{
+  padding-right:11px; 
+  padding-left: 11px; 
+
+}
+footer #styleIcon i.fa.fa-facebook.diff{
+  padding-right:13px; 
+  padding-left: 13px; 
+}
